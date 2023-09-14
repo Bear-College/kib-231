@@ -1,3 +1,7 @@
 print("Hello world")
-print("Hello METANIT.com")
-print("Hello Phyton")
+
+name=input("Your name:")
+
+age=input("Your age:")
+
+print(f"Name: {name} Age: {age}")
