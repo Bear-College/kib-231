@@ -1,7 +1,7 @@
-a = input('Type first number: ');
-b = input('Type second number: ');
+a = int(input('Type first number: '));
+b = int(input('Type second number: '));
 
-operation = raw_input('Choose operation: '); # Just 'input' didn't work for me.
+operation = input('Choose operation: ');
 
 if operation == '+':
     c = a + b
