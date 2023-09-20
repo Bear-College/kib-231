@@ -1,3 +1,4 @@
+# calculus
 c = input('Оберіть дію')
 
 a = float(input('Введіть перше число :'))
