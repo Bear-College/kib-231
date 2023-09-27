@@ -1,4 +1,4 @@
 from colorama import Fore, Back
-print(Fore.BLACK)
+print(Fore.RED)
 print(Back.WHITE)
-print("DIMA SHCHENSNEVYCH")
+print("Erebakan Bogdan")
