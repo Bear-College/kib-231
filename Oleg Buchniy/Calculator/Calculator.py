@@ -32,18 +32,14 @@ print("4. Ділення")
 print("5. Ділення націло")
 print("6. Зведення в степінь")
 print("7. Залишок від ділення")
-print("8. Округлення числа")
+#print("8. Округлення числа")
 
 
 choice = input("Введіть номер операції (1/2/3/4/5/6/7/8): ")
-'''
-if choice == '8':
-    number3 = float(input("Введіть перше число: "))
 
-else:
 number1 = float(input("Введіть перше число: "))
 number2 = float(input("Введіть друге число: "))
-'''
+
 number1 = float(input("Введіть перше число: "))
 number2 = float(input("Введіть друге число: "))
 if choice == '1':
@@ -60,7 +56,7 @@ elif choice == '6':
     print("Результат:", Pow(number1, number2))
 elif choice == '7':
     print("Результат:", Remainder(number1, number2))
-elif choice == '8':
-    print("Результат:", FromFloatToInt(number1))
+#elif choice == '8':
+ #   print("Результат:", FromFloatToInt(number1))
 else:
     print("Невірний вибір операції")
