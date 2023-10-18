@@ -1,6 +1,6 @@
 import pickle
 
-FILENAME = "user.dat"
+FILENAME = "C:\\Users\\Super\\Desktop\\MAKSYM SHEK\\Maksym Shek's folder\\lab5-6\\user.dat"
 
 name = "Tom"
 age = 19

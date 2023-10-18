@@ -1,5 +1,5 @@
 import csv
-FILENAME = "user.csv"
+FILENAME = "C:\\Users\\Super\\Desktop\\MAKSYM SHEK\\Maksym Shek's folder\\lab5-6\\user.csv"
 
 users = (
     ["Tom", 28],
