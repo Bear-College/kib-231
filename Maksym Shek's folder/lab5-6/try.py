@@ -1,5 +1,5 @@
 try:
-    somefile = open("hello.txt", "w")
+    somefile = open("C:\\Users\\Super\\Desktop\\MAKSYM SHEK\\Maksym Shek's folder\\lab5-6\\hello.txt", "w")
     try:
         somefile.write("hello word")
     except Exception as e:
