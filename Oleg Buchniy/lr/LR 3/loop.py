@@ -12,6 +12,9 @@ ArmorGladiator2 = random.uniform(50,80)
 print(f"Gladiator 1: {HealthGladiator1} health , {DamageGladiator1} damage , {ArmorGladiator1} armor ")
 print(f"Gladiator 2: {HealthGladiator2} health , {DamageGladiator2} damage , {ArmorGladiator2} armor \n")
 
+#while for
+
+
 Countloop=10000000
 countRound = 1
 DamageInRound1=0
