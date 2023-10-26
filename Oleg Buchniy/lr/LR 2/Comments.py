@@ -3,6 +3,9 @@ msg= "Hello"
 print(msg)
 
 print(msg) #hello
+# Однорядкові коментарі:
+# Позначаються символом #.
+
 
 '''
 hel;lo 
