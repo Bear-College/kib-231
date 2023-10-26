@@ -16,3 +16,5 @@ elif Instructionskip=="No" or Instructionskip=="n" or Instructionskip=="no" or I
 else:
     print("Неправильно введені дані. Провсяк випадок ми покажем вам інструкцію")
     Instruction()
+
+    
