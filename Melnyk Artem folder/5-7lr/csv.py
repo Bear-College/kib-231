@@ -15,5 +15,5 @@ with open (FILENAME,"w", newline="") as file:
 
     with open (FILENAME,"a", newline="") as file:
         user = ["Sam",35]
-         writer = csv.writer(file)
+        writer = csv.writer(file)
     writer.writerows(user)
