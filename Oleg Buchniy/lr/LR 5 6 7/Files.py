@@ -154,25 +154,25 @@ else:
         
         if(ChoiseFileMod==2):
             
-            # Heroes=[
+    #         Heroes=[
 
-            # ]
-            # for i in range(1000):
-            #     person = list()
-            #     person.append(input("Ім'я вашого супер героя: "))
-            #     person.append(input("Його суперздібність: "))
-            #     person.append(input("Бобічні ефекти: "))
-     # #ШО ЗА ХУЙНЯ ХУЛІ ВОНО НЕ ПРАЦЮЄ?????????????????? ВОНИ Ж ОДНАКОВІ!!!!!!!!!   добавление вложенного списка
-            #     Heroes.append(person)
-            #     #Heroes[i-1]= person
-            #     BreakQuestion=input("Продовжити? y/n ")
-            #     if BreakQuestion=="No" or BreakQuestion=="n" or BreakQuestion=="no" or BreakQuestion=="NO":
-            #         break
+    #         ]
+    #         for i in range(1000):
+    #             person = list()
+    #             person.append(input("Ім'я вашого супер героя: "))
+    #             person.append(input("Його суперздібність: "))
+    #             person.append(input("Бобічні ефекти: "))
+    #  #ШО ЗА ХУЙНЯ ХУЛІ ВОНО НЕ ПРАЦЮЄ?????????????????? ВОНИ Ж ОДНАКОВІ!!!!!!!!!   добавление вложенного списка
+    #             Heroes.append(person)
+    #             #Heroes[i-1]= person
+    #             BreakQuestion=input("Продовжити? y/n ")
+    #             if BreakQuestion=="No" or BreakQuestion=="n" or BreakQuestion=="no" or BreakQuestion=="NO":
+    #                 break
             
-            # with open(TaskFile, "w", newline="") as file:
-            #     #NewHeroes = ["Sam", 31, "fbfgnn"]
-            #     writer = csv.writer(file)
-            #     writer.writerow(Heroes)   
+    #         with open(TaskFile, "w", newline="") as file:
+    #             #NewHeroes = ["Sam", 31, "fbfgnn"]
+    #             writer = csv.writer(file)
+    #             writer.writerow(Heroes)   
 
             Heroes= [
                 # ["Ім'я героя", "Суперздібеість", "Побічні ефекти"],
@@ -196,7 +196,7 @@ else:
             with open(TaskFile, "a", newline="") as file:
                 writer = csv.writer(file)
                 writer.writerows(Heroes)
-        
+       
         with open(TaskFile, "r", newline="") as file:
             reader = csv.reader(file)
             for row in reader:
@@ -222,6 +222,7 @@ else:
                 age = pickle.load(file)
                 print("Гаразд, ваше ім'я :", name, "\tВаш вік: ", age)         
                 print("Тримайте будь ласка вашу"+Fore.GREEN+"перепустку для входу")
+
 
 #ColsPrint=print(*messages,sep="\n")
 
