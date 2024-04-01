@@ -116,9 +116,9 @@ while():
 
   ChoiseOperation=input("Оберіть операцію:")
 
-  Gladiators.sort(key=str.__len__)
+  # Gladiators.sort(key=str.__len__)
 
-  i = 0
-  while i < len(Gladiators):
-      print(Gladiators[i])    # применяем индекс для получения элемента
-      i += 1
+  # i = 0
+  # while i < len(Gladiators):
+  #     print(Gladiators[i])    # применяем индекс для получения элемента
+  #     i += 1

@@ -313,7 +313,7 @@ Gladiator3=LionGladiator()
 Gladiator4=GorilaGladiator()
 Me=MeGladiator()
 
-InputName=input("Іnput Name of gladiator ")
+InputName=input("Іnput Name of your gladiator ")
 InputDamage=int(input("Іnput Damage of gladiator  "))
 InputHealth=int(input("Input Health of gladiator  "))
 Gladiator1.Set_Info_Gladiators(InputDamage,InputHealth,InputName)
