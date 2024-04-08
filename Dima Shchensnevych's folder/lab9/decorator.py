@@ -14,7 +14,7 @@ def user_info(login, password):
 user_info("Dima","abcd123")
 user_info("Dima", 123)
 
-def check_to_parity(input_function):
+def check_to_parity(input_function) :
     def output_func(*args):
         result = input_function(*args)
         if result == 0: result = "Так"
