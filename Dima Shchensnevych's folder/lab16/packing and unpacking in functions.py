@@ -35,6 +35,5 @@ def sum(num1, num2, *nums):
     for n in nums:
         result+=n
     return result
-
 print(sum(1,2,3,4))
 print(sum(1,2,3,4,5))
